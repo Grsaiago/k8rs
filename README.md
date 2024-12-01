@@ -9,7 +9,7 @@ Metrics include information such as the Pod ID and the server's UTC time of the 
 
 - Event Monitoring: Captures all Kubernetes cluster events.
 - Pod Filtering: Focuses on pod-specific events.
-- Logging: Logs pod events using the tracing crate.
+- Logging: Logs pod events using the `tracing` crate.
 - Metrics Exporting: Stores metrics with the `metrics` crate and
 exposes them to prometheus via a `/metrics` endpoint using an
 `Axum` server with `axum_prometheus_exporter`.
