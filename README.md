@@ -17,7 +17,7 @@ exposes them to prometheus via a `/metrics` endpoint using an
 ## Prerequisites
 
 - A running Kubernetes cluster, or a local cluster created with Kind.
-Rust and Cargo installed on your system. You can install them via rustup.
+- Rust and Cargo installed on your system.
 
 ### Install dependencies
 
