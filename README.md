@@ -1,4 +1,4 @@
-# K8rs: A study k8s operator in pure rust 🦀🦀
+# K8rs: A study k8s operator in rust 🦀🦀
 
 This operator listens for all cluster events, filters events concerning pods,
 logs these events, and stores metrics that are then exported to Prometheus by
