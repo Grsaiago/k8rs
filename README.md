@@ -33,7 +33,7 @@ cd <repository-directory>
 
 ## See it in action
 
-### Start your kind cluster (optional)
+### Start your kind cluster
 
 ```sh
 kind create cluster --config kind-cluster.yml
@@ -54,25 +54,20 @@ But this should work as well (but it'll be a debug build):
 cargo run
 ```
 
-### Apply a simple pod
+---
+
+Now, whenever you run a pod:
 
 ```sh
 kubectl apply -f manifest.yaml
 ```
 
-
-Whenever you run
-
-```sh
-kubectl apply -f manifest.yaml
-```
-
-or
+or when you delete a pod:
 
 ```sh
-kubectl apply -f manifest.yaml
+kubectl delete -f manifest.yaml
 ```
 
 you should see the operator logging!
 If you see the logs, check out your `localhost:8080/metrics` and you should see
-the metrics being correctly exported to Prometheus
+the metrics being correctly exported to Prometheus.
