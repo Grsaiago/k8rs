@@ -1,0 +1,15 @@
+[package]
+name = "k8rs"
+version = "0.1.0"
+edition = "2021"
+
+[dependencies]
+axum = "0.7.9"
+axum-prometheus = "0.7.0"
+futures = "0.3.31"
+futures-util = "0.3.31"
+k8s-openapi = { version = "0.23.0", features = ["latest"] }
+kube = { version = "0.97.0", features = ["runtime", "derive"] }
+tokio = { version = "1.41.1", features = ["full"] }
+tracing = "0.1.41"
+tracing-subscriber = "0.3.19"
