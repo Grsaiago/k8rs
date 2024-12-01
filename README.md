@@ -23,6 +23,7 @@ exposes them to prometheus via a `/metrics` endpoint using an
 
 - Kind install
 - Rust install
+- Kubectl install
 
 ### Clone the repository
 
