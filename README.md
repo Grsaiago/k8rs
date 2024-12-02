@@ -4,6 +4,11 @@ This operator listens for all cluster events, filters events concerning pods,
 logs these events, and stores metrics that are then exported to Prometheus by
 an http server that the controller runs concurrently on a 'green thread'.
 Metrics include information such as the Pod ID and the server's UTC time of the event.
+<div>
+<img src="https://github.com/user-attachments/assets/688c51b8-d944-41a5-bf28-ac63c486a906" height=500 />
+<img src="https://github.com/user-attachments/assets/0cc91f79-19e6-449b-8a48-2128a4c4e3ba" height=500 />
+</div>
+
 
 ## Features
 
