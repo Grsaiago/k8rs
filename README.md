@@ -28,8 +28,8 @@ exposes them to prometheus via a `/metrics` endpoint using an
 ### Clone the repository
 
 ``` bash
-git clone <repository-url>
-cd <repository-directory>
+git clone https://github.com/Grsaiago/k8rs/tree/main <where_you_want_to_clone>
+cd <where_you_want_to_clone>
 ```
 
 ## See it in action
