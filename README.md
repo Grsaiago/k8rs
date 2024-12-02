@@ -21,9 +21,9 @@ exposes them to prometheus via a `/metrics` endpoint using an
 
 ### Install dependencies
 
-- Kind install
-- Rust install
-- Kubectl install
+- [Kind install](https://kind.sigs.k8s.io/docs/user/quick-start#installation)
+- [Rust install](https://www.rust-lang.org/tools/install)
+- [Kubectl install](https://kubernetes.io/docs/tasks/tools/#kubectl)
 
 ### Clone the repository
 
